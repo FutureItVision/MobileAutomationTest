@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52242" started-at="2018-07-23T05:15:38Z" finished-at="2018-07-23T05:16:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52242" started-at="2018-07-23T05:15:38Z" finished-at="2018-07-23T05:16:30Z">
+      <class name="com.FutureItVisopnMobileTest.regression.ActionsSheets">
+        <test-method status="PASS" signature="verifyApplicationSheetClickable()[pri:0, instance:com.FutureItVisopnMobileTest.regression.ActionsSheets@3632be31]" name="verifyApplicationSheetClickable" duration-ms="52202" started-at="2018-07-23T05:15:38Z" finished-at="2018-07-23T05:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationSheetClickable -->
+      </class> <!-- com.FutureItVisopnMobileTest.regression.ActionsSheets -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
