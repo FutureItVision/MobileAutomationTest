@@ -12,9 +12,8 @@ import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class ScriptBase {
-	
+	public static IOSDriver<IOSElement>driver;
 	public static IOSDriver<IOSElement> beforetest() throws MalformedURLException {
-		IOSDriver<IOSElement>driver;
 		DesiredCapabilities  desiredCapabilities=new DesiredCapabilities();
 		desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"iPhone 6");
 		desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS" );

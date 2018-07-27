@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.FutureItVisopnMobileTest.regression.ActionSheetTest">
+      <class name="com.FutureItVisopnMobileTest.regression.ActionsSheets">
         <methods>
-          <include name="applicationSheetClickable"/>
+          <include name="verifyApplicationSheetClickable"/>
+          <include name="end"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- com.FutureItVisopnMobileTest.regression.ActionSheetTest -->
+      </class> <!-- com.FutureItVisopnMobileTest.regression.ActionsSheets -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
